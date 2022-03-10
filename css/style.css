@@ -54,11 +54,6 @@ header {
     justify-content: center;
 }
 
-/* Animate the logo with keyframes.  
-(Here is a keyframes reference.) 
-It should start at a width of 25px and grow to 475px. 
-It should also start with an opacity of 0 and end with an opacity of 1.  
-The animation should take 5 seconds and only happen when the page is loaded. */
 #logo {
     position: relative;
     animation-name: mymove;
@@ -94,7 +89,7 @@ The animation should take 5 seconds and only happen when the page is loaded. */
 
     /* requirement 13 */
     .card {
-        width: 250px;
+        flex-basis: 250px;
     }
 
     .pricing {
@@ -130,8 +125,6 @@ The animation should take 5 seconds and only happen when the page is loaded. */
     }
     nav {
         width:  100%;
-        /* align-self: center;
-        justify-content: space-around; */
     }
 
     /* 18 */
